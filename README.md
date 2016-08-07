@@ -10,8 +10,28 @@ It’s a new concept to engage students in the field of Computer Science and foc
 * Bootstrap is a free and open-source front-end web framework for designing websites and web applications. 
 * jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.
 
+# Modules
 
-### License
+* MCQ Assessment
+* Coding Challenge
+* Practice Test
+* Hackathon
+* Ranking
+* Performance Graph
+* Games 
+* Code Builder
+* Learning Hub
+* Feedback
+* Girls can Code
+* Upload Questions
+* Certificate
+* Bug Report
+
+# Future Development
+* Animated Programming
+* API
+
+# License
 
 
 MIT
