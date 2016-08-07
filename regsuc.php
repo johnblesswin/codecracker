@@ -97,7 +97,7 @@ else {
     
     
     try {
-        $connection         = new MongoClient("mongodb://cloud#er_muk:cloud#&_juld9@localhost:27017");
+        $connection         = new MongoClient('mongodb://'.getenv('app_username').':'.getenv('app_password').'@ds145395.mlab.com:45395/'.getenv('app_database'));
 
         $db                 = $connection->selectDB('codetest');
         $collection         = $db->selectCollection('registration');
