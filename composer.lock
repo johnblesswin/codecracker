@@ -14,7 +14,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "5.6.23",
+        "php": "5.6.24",
         "ext-mongo": "*"
     },
     "platform-dev": []
