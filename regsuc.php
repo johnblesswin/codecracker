@@ -99,7 +99,7 @@ else {
     try {
         $connection         = new MongoClient('mongodb://'.getenv('app_username').':'.getenv('app_password').'@ds145395.mlab.com:45395/'.getenv('app_database'));
 
-        $db                 = $connection->selectDB('codetest');
+        $db                 = $connection->selectDB(getenv('app_database'));
         $collection         = $db->selectCollection('registration');
         $passkeycollection  = $db->selectCollection('passkey');
         $passkeycollection1 = $passkeycollection->find();
