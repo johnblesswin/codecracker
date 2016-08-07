@@ -1,5 +1,5 @@
 <?php
-error_reporting(0); // stop error reporting
+//error_reporting(0); // stop error reporting
 ini_set('session.use_strict_mode', '1');
 ini_set('session.cookie_httponly', '1');
 
