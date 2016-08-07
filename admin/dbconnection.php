@@ -15,6 +15,10 @@ class DBConnection
     public $database;
     private function __construct()
     {
+
+         $app_username = getenv('app_username');
+         $app_password = getenv('app_password');
+         $app_database = getenv('app_database');
         
         try {
             $this->connection = new MongoClient('mongodb://$app_username:$app_password@ds145395.mlab.com:45395/$app_database');
@@ -24,7 +28,7 @@ class DBConnection
         catch (MongoConnectionException $e) {
             die("Server not connected");
         }
-        
+
     }
     static public function instantiate()
     {

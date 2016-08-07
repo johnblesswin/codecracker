@@ -13,18 +13,15 @@ class DBConnection
     private static $instance;
     public $connection;
     public $database;
+    
     private function __construct()
     {
        
-         $app_username = getenv('app_username');
-         $app_password = getenv('app_password');
-         $app_database = getenv('app_database');
-
-        
+                
         try {
-            $this->connection = new MongoClient('mongodb://$app_username:$app_password@ds145395.mlab.com:45395/$app_database');
+            $this->connection = new MongoClient('mongodb://'.getenv('app_username').':'.getenv('app_password').'@ds145395.mlab.com:45395/'.getenv('app_database'));
 
-            $this->database   = $this->connection->selectDB($app_database);
+            $this->database   = $this->connection->selectDB(getenv('app_database'));
         }
         catch (MongoConnectionException $e) {
             die("Server not connected");
