@@ -6,11 +6,15 @@ ini_set('session.cookie_httponly', '1');
 
 class DBConnection
 {
+    $app_username = getenv('app_username');
+    $app_password = getenv('app_password');
+    $app_database = getenv('app_database');
+
     const HOST = 'localhost';
     const PORT = 27017;
-    const DBNAME = getenv('app_database');
-    const USERNAME = getenv('app_username');
-    const PASSWORD = getenv('app_password');
+    const DBNAME = $app_database;
+    const USERNAME = $app_password;
+    const PASSWORD = $app_password;
     private static $instance;
     public $connection;
     public $database;
