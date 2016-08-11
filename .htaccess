@@ -1,1 +1,1 @@
-RewriteCond %{HTTP:X-Forwarded-Proto} !https 
+RewriteCond %{HTTPS} !=on
