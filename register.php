@@ -12,16 +12,16 @@ require_once 'csrf_token_functions.php';
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
       <title>New User Registration</title>
-      <link href="assets/css/autowide.css" rel="stylesheet" type="text/css"/>
-      <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-      <link href="assets/css/core.css" rel="stylesheet" type="text/css"/>
-      <link href="assets/css/components.css" rel="stylesheet" type="text/css"/>
-      <link href="assets/css/icons.css" rel="stylesheet" type="text/css"/>
-      <link href="assets/css/pages.css" rel="stylesheet" type="text/css"/>
-      <link href="assets/css/responsive.css" rel="stylesheet" type="text/css"/>
+      <link href="assets/css/autowide.css" rel="stylesheet" type="text/css"  defer="defer"/>
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"  defer="defer"/>
+      <link href="assets/css/core.css" rel="stylesheet" type="text/css"  defer="defer"/>
+      <link href="assets/css/components.css" rel="stylesheet" type="text/css"  defer="defer"/>
+      <link href="assets/css/icons.css" rel="stylesheet" type="text/css"  defer="defer"/>
+      <link href="assets/css/pages.css" rel="stylesheet" type="text/css"  defer="defer"/>
+      <link href="assets/css/responsive.css" rel="stylesheet" type="text/css"  defer="defer"/>
    </head>
    <body>
-      <style type="text/css"> body{-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}::selection{color: none; background: none;}/* For Mozilla Firefox */ ::-moz-selection{color: none; background: none;}</style>
+
       <div class="account-pages"></div>
       <div class="clearfix"></div>
       <div class="wrapper-page">
@@ -79,6 +79,6 @@ require_once 'csrf_token_functions.php';
             </div>
          </div>
       </div>
-      <script>var resizefunc=[]; </script> <script src="assets/js/jquery.min.js"></script> <script type="text/javascript" src="js/disable.js"></script> <script src="assets/js/validate.js"></script> <script src="assets/plugins/notifyjs/dist/notify.min.js"></script> <script src="assets/plugins/notifications/notify-metro.js"></script> <script src="assets/js/jquery.core.js"></script> 
+      <script>var resizefunc=[]; </script> <script src="assets/js/jquery.min.js"  defer="defer"></script> <script type="text/javascript" src="js/disable.js"  defer="defer"></script> <script src="assets/js/validate.js"  defer="defer"></script> <script src="assets/plugins/notifyjs/dist/notify.min.js"  defer="defer"></script> <script src="assets/plugins/notifications/notify-metro.js"  defer="defer"></script> <script src="assets/js/jquery.core.js"  defer="defer"></script> 
    </body>
 </html>
