@@ -88,8 +88,8 @@ switch ($action) {
    <head>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>CodeCracker - Student Assessment Application</title>
-      <link href="css/style1.css" rel='stylesheet' type='text/css' />
-      <link href="css/autowide.css" rel="stylesheet" type="text/css"/>
+      <link href="css/style1.css" rel="stylesheet" type="text/css" defer="defer">
+      <link href="css/autowide.css" rel="stylesheet" type="text/css" defer="defer">
      
       <style>
          #ershow
