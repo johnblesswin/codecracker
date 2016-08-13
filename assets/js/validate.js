@@ -104,7 +104,7 @@ else{
                 }else{
                     if(msg=="success")
                     {
-                        $.Notification.autoHideNotify("success", "top left", "Hi", "Congratulations! You have successfully registered")
+                        $.Notification.autoHideNotify("success", "top left", "Congratulations", "successfully registered")
                     }else
                     {
                         $.Notification.autoHideNotify('error', 'top right', 'ERROR', '' + msg + '');
