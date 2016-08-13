@@ -88,12 +88,11 @@ switch ($action) {
    <head>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>CodeCracker - Student Assessment Application</title>
-      <link rel="stylesheet" type="text/css" href="css/autowide.css">
-
+     
       <style>
       body
       {
-            background: url(../images/backdrop.gif) 50% 50% no-repeat #69BBB7;
+            background: url(images/backdrop.gif) 50% 50% no-repeat #69BBB7;
             font-family: Roboto, sans-serif
       }
       #ershow
@@ -137,7 +136,8 @@ switch ($action) {
 
 
      <link rel="stylesheet" type="text/css" href="css/style1.css" defer>
-      
+     <link rel="stylesheet" type="text/css" href="css/autowide.css" defer>
+
 	  <script src="js/jquery-3.1.0.min.js" async></script>
     <script src="js/disable.js" async></script>
 
