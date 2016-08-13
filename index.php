@@ -89,7 +89,7 @@ switch ($action) {
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>CodeCracker - Student Assessment Application</title>
        <script src="loadCSS/src/loadCSS.js"></script>
-       <script>
+       <script async>
           loadCSS("css/style1.css");
           loadCSS("css/autowide.css");
        </script>
