@@ -79,6 +79,11 @@ require_once 'csrf_token_functions.php';
             </div>
          </div>
       </div>
-      <script>var resizefunc=[]; </script> <script src="assets/js/jquery.min.js"  defer="defer"></script> <script type="text/javascript" src="js/disable.js"  defer="defer"></script> <script src="assets/js/validate.js"  defer="defer"></script> <script src="assets/plugins/notifyjs/dist/notify.min.js"  defer="defer"></script> <script src="assets/plugins/notifications/notify-metro.js"  defer="defer"></script> <script src="assets/js/jquery.core.js"  defer="defer"></script> 
+      <script>var resizefunc=[]; </script> <script src="assets/js/jquery.min.js" async></script> 
+      <script type="text/javascript" src="js/disable.js" async></script> 
+      <script src="assets/js/validate.js" async></script> 
+      <script src="assets/plugins/notifyjs/dist/notify.min.js" async></script>
+      <script src="assets/plugins/notifications/notify-metro.js" async></script>
+      <script src="assets/js/jquery.core.js" async></script> 
    </body>
 </html>

@@ -132,8 +132,8 @@ switch ($action) {
 
 
 
-	  <script src="js/jquery-3.1.0.min.js"></script>
-    <script src="js/disable.js" defer="defer"></script>
+	  <script src="js/jquery-3.1.0.min.js" async></script>
+    <script src="js/disable.js" async></script>
 
       
    </body>
